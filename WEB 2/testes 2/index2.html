@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+  <head><!--Aqui é onde vc faz as referências-->
+    <meta charset="utf-8"><!--Aqui eu estou colocando os caracteres para aceitarem utf-8, que é basicamente o teclado brasileiro-->
+    <link rel="stylesheet" type="text/css" href="_css/index.css"><!--aqui eu tô referênciando ao meu CSS-->
+  </head>
+
+  <body><!--Aqui é corpo da sua pagina HTML-->
+    <form>
+      <table cellspacing="10">
+  <tr>
+   <td>
+    <label for="nome">Nome: </label>
+   </td>
+   <td align="left">
+    <input type="text" name="email">
+   </td>
+   <td>
+    <label for="sobrenome">Sobrenome: </label>
+   </td>
+   <td align="left">
+    <input type="text" name="sobrenome">
+   </td>
+  </tr>
+  <tr>
+   <td>
+    <label>Nascimento: </label>
+   </td>
+   <td align="left">
+    <input type="text" name="dia" size="2" maxlength="2" value="dd"> 
+   <input type="text" name="mes" size="2" maxlength="2" value="mm"> 
+   <input type="text" name="ano" size="4" maxlength="4" value="aaaa">
+   </td>
+  </tr>
+  <tr>
+   <td>
+    <label for="rg">RG: </label>
+   </td>
+   <td align="left">
+    <input type="text" name="rg" size="13" maxlength="13"> 
+   </td>
+  </tr>
+  <tr>
+   <td>
+    <label>CPF:</label>
+   </td>
+   <td align="left">
+    <input type="text" name="cpf" size="9" maxlength="9"> - <input type="text" name="cpf2" size="2" maxlength="2">
+   </td>
+   <td>
+    <label>Escolha uma cor:</label>
+   </td>
+   <td align="left">
+    <input type="radio" name="cor">Azul
+    <input type="radio" name="cor">Amarelo
+   </td>
+  </tr>
+ </table>
+ <input type="submit" name="enviar">
+ <button type="">Cancelar</button><br><br>
+ <hr>
+ <text>Durante a pandemia teve algum desses problemas?</text><br><br>
+ <input type="checkbox" name="cov">Conexão de internet ruim<br>
+ <input type="checkbox" name="cov">Problemas com o local de estudo<br>
+ <input type="checkbox" name="cov">Falta de atenção
+
+    </form>
+
+  </body>
+
+</html>

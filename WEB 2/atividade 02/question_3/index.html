@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Question_3</title>
+    <link rel="stylesheet" type="text/css" href="_css/index.css">
+  </head>
+
+  <body>
+    <br><br>
+    <h2>Vamos fazer uma operação aritmética com valores inteiros, basta digitar os valores e um operador!</h2>
+    <div>
+      <form>
+        <box>Digite um valor inteiro:<input id="value1" placeholder="ex: 10"></box> <br>
+        <box>Digite um operador aritmético:<input id="operator" placeholder="ex: {+} {-} {*} {/}"></box> <br>
+        <box>Digite outro valor inteiro:<input id="value2" placeholder="ex: 20"></box> <br>
+        <button type="button" onclick="do_it()">Executar</button>
+        <button type="reset" onclick="clear_clear()">Limpar</button> <br> <br>
+        <result id="result">Seu Resultado</result>
+      </form>
+    </div>
+    <script src="_js/js.js"></script>
+  </body>
+</html>

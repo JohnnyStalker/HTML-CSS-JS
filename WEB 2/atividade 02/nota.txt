@@ -1,0 +1,4 @@
+Alterei o nome da questão2 pra ficar index.html igual as outras e ter uma melhor visualização.
+Na questão2 também coloquei um document.write pra facilitar a visualização da resposta e um alerta para avisar este feito.
+
+Obrigado pela leitura.

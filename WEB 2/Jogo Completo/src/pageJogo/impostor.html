@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./stile.css">
+    <link rel="shortcut icon" type="image/jpg" href="../_img/favicon.ico"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200&family=Patrick+Hand&display=swap" rel="stylesheet">
+    <title>Square Among Us</title>
+</head>
+<body>
+    <div class="container">
+        <div class="content first-content">
+
+            <div class="first-column">
+                <img class="image" src="../_img/shhh.jpg" width="400">
+            </div>
+
+            <div class="second-column">
+                <box >
+                    <div id="box1" class="box">1</div>
+                    <div id="box2" class="box">2</div>
+                    <div id="box3" class="box">3</div>
+                    <div id="box4" class="box">4</div>
+                    <div id="box5" class="box">5</div>
+                    <div id="box6" class="box">6</div>
+                    <div id="box7" class="box">7</div>
+                    <div id="box8" class="box">8</div>
+                    <div id="box9" class="box">9</div>
+                    <div id="box10" class="box">10</div>
+                    <br><br><br>
+                     
+                    <label class="result-text">
+                        Digite o número de quem <br> 
+                        você acha que é o impostor <br> 
+                    <input type="number" id="impostor" placeholder="???"></label> <br>
+                    <button class="btn-Votar btn-red" onclick="kick()">Votar</button> 
+                    <button class="btn-pular btn-red"  onclick="skip()">Pular</button>
+                    <br><br><br>
+                    <h3 class="result" id="result">Status: </h3>
+                    <br><br>
+                    <button class="btn-Votar btn-red" value="Refresh Page" onClick="window.location.reload()">Reiniciar</button>
+                    <button class="btn-tutorial btn-red"><a href="../pageTutorial/tutorial.html">Tutorial</a></button>
+                </box>
+            </div>
+        </div>
+        <div class="content second-content">
+            <div class="second-column">
+                <h2>IMPOSTOR</h2>
+                <label>Digite o número de quem <br> você acha que é o impostor <br> <input id="impostor" placeholder="quem?"></label> <br>             
+            </div>
+        </div>
+    </div>
+    
+    <script src="./script.js"></script>
+</body>
+</html>

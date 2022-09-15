@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+html{
+    background-image: url("../_img/tela-tutorial.jpg");
+    background-size: 100% 100%;
+}
+
+.content {
+    border-radius: 15px;
+    background-color: rgb(0, 0, 0);
+    width: 50%;
+    height: 40%;
+    justify-content: space-around;
+    align-items: center;
+    opacity: 0.8;
+    padding: 50px;
+    color: rgb(240, 236, 15);
+    margin-top: 290px;
+    margin-left: 90px;
+    
+    
+}
+.botao-voltar{
+    font-family: 'Patrick Hand', cursive;
+    font-size: 14px;
+    font-weight: 700;
+    border:none;
+    padding: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+    margin-left: 200px;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+.btn-yellow{
+    background-color: rgb(235, 231, 13);
+    box-shadow: 0 5px 0 rgb(179, 176, 11);
+
+}
+.btn-yellow:hover{
+    background-color: rgb(214, 194, 15);
+    box-shadow: 0 5px 0 rgb(119, 99, 9);
+}
+.btn-yellow:active{
+    box-shadow: none;
+    position: relative;
+    top:5px;
+}
+.result-text {
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Patrick Hand', cursive;
+    margin-top: 25px;
+}
