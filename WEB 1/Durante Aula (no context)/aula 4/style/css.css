@@ -1,0 +1,40 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#title {
+    text-align: center;
+}
+
+#forms {
+    margin-top: 30mm;
+    font-weight: bold;
+    text-align: center;
+}
+
+#hr {
+    width: 600px;
+    margin-bottom: 5mm;
+    margin-top: 5mm;
+}
+
+h2 {
+    font-size: xx-large;
+}
+
+body {
+    margin: 0%;
+    align-items: center;
+}
+
+#submit {
+    background-color: rgb(163, 248, 36);
+    margin-right: 10mm;
+    transform: scale(1.2);
+}
+
+#cancel {
+    background-color: rgb(252, 89, 89);
+    transform: scale(1.2);
+}
+

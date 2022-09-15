@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>script - 6</title>
+		<link href="style/css.css" type="text/css" rel="stylesheet">
+	</head>
+
+	<body>
+		<p id="firstp">Preencha as informações abaixo e ao final, clique em CONCLUIR para realizar o cadastor.</p>
+		<form>
+			<label>Nome:<input type="text" name="name"  id="name"> </label>
+			<label>CPF:<input type="tel" name="cpf"></label> <br>
+			
+			<label>Dana de nascimento:<input type="text"></label>
+			<label>Endereço:<input type="text" name="address"></label> <br>
+
+			<label>Celular:<input type="tel" name="tel"></label>    
+			<label>Celular 2:<input type="tel" name="tel"></label> <br>
+
+			<label>Sexo:
+				<input type="radio" name="gender">Masculino
+				<input type="radio" name="gender">Feminino
+			</label>
+			<hr>
+			<h1>Cursos Disponíveis</h1>
+			<p>Escolha uma das opções abaixo para o curso o qual deseja ingressar: <br> <b>Obs: Só é permitido uma única escolha de curso.</b></p>
+			<label>
+				<input type="radio" name="course"> Informática
+				<input type="radio" name="course"> Edificações
+				<input type="radio" name="course"> Energias Renováveis
+				<input type="radio" name="course"> Agropecuária
+				<input type="radio" name="course"> Zootecnia
+			</label>
+			<hr>
+			<p>Para uma pesquisa de satisfação, que outros cursos gostaria que fossem ofertados pela instituição? <br> Pode selecionar mais de um curso.</p>
+			<label>
+				<input type="checkbox" name="request"> Design de Interiores <br>
+				<input type="checkbox" name="request"> Redes de Computadores <br>
+				<input type="checkbox" name="request"> Licenciatura em Química <br>
+				<input type="checkbox" name="request"> Administração <br>
+				<input type="checkbox" name="request"> Engenharia de Alimentos <br>
+			</label>
+			<label><input type="submit" name="submit" value="Concluir"></label>
+			<label><input type="submit" name="clear" value="Limpar"></label>
+			<label><input type="submit" name="cancel" value="Cancelar"></label>
+		</form>
+		<hr id="end">
+	</body>
+</html>

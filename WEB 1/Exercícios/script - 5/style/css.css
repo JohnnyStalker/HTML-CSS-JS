@@ -1,0 +1,28 @@
+body {
+	text-align: center;
+}
+
+tr {
+	margin: 2cm;
+}
+
+td {
+	border: black 2px solid;
+}
+
+table {
+	border:2px groove;
+	border-color: gray black black gray;
+	font-size: 5mm;
+	background-color: yellow;
+	padding: 4px;
+	text-align: center;
+}
+
+.aprovado {
+	color: #0d0080;
+}
+
+.reprovado {
+	color: red;
+}
